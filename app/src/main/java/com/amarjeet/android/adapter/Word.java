@@ -10,13 +10,7 @@ public class Word {
         mData2=s2;
         mData3=s3;
     }
-    public String getData1(){
-        return mData1;
-    }
-    public String getData2(){
-        return mData2;
-    }
-    public String getData3(){
-        return mData3;
-    }
+    public String getData1(){ return mData1; }
+    public String getData2(){ return mData2; }
+    public String getData3(){ return mData3; }
 }
