@@ -18,10 +18,10 @@ public class MainActivity extends AppCompatActivity {
 
         ArrayList<Word> words= new ArrayList<Word>();
 
-        words.add(new Word("one","1","hello1"));
-        words.add(new Word("two","2","hello2"));
-        words.add(new Word("three","3","hello3"));
-        words.add(new Word("four","4","hello4"));
+        words.add(new Word("one","1",R.drawable.ic_launcher_foreground));
+        words.add(new Word("two","2",R.drawable.ic_launcher_foreground));
+        words.add(new Word("three","3",R.drawable.ic_launcher_foreground));
+        words.add(new Word("four","4",R.drawable.ic_launcher_foreground));
 
         WordAdapter arrayAdapter=new WordAdapter(this,words);
         ListView listView= (ListView)findViewById(R.id.listview);
